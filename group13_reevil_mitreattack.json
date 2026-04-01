@@ -1,0 +1,124 @@
+{
+    "name": "group13_reevil_mitreattack",
+    "versions": {
+        "attack": "18.1",
+        "navigator": "5.0",
+        "layer": "4.5"
+    },
+    "domain": "enterprise-attack",
+    "description": "",
+    "filters": {
+        "platforms": [
+            "Windows"
+        ]
+    },
+    "layout": {
+        "layout": "side",
+        "showID": true,
+        "showName": true
+    },
+    "techniques": [
+        {
+            "techniqueID": "T1036",
+            "tactic": "defense-evasion",
+            "color": "#e60d0d",
+            "enabled": true
+        },
+        {
+            "techniqueID": "T1036.003",
+            "tactic": "defense-evasion",
+            "color": "#e60d0d",
+            "enabled": true
+        },
+        {
+            "techniqueID": "T1055",
+            "tactic": "defense-evasion",
+            "color": "#e60d0d",
+            "enabled": true
+        },
+        {
+            "techniqueID": "T1055.012",
+            "tactic": "defense-evasion",
+            "color": "#e60d0d",
+            "enabled": true
+        },
+        {
+            "techniqueID": "T1059",
+            "tactic": "execution",
+            "color": "#e60d0d",
+            "enabled": true
+        },
+        {
+            "techniqueID": "T1059.001",
+            "tactic": "execution",
+            "color": "#e60d0d",
+            "enabled": true
+        },
+        {
+            "techniqueID": "T1068",
+            "tactic": "privilege-escalation",
+            "color": "#e60d0d",
+            "enabled": true
+        },
+        {
+            "techniqueID": "T1082",
+            "tactic": "discovery",
+            "color": "#e60d0d",
+            "enabled": true
+        },
+        {
+            "techniqueID": "T1195",
+            "tactic": "initial-access",
+            "color": "#e60d0d",
+            "enabled": true
+        },
+        {
+            "techniqueID": "T1195.002",
+            "tactic": "initial-access",
+            "color": "#e60d0d",
+            "enabled": true
+        },
+        {
+            "techniqueID": "T1204",
+            "tactic": "execution",
+            "color": "#e60d0d",
+            "enabled": true
+        },
+        {
+            "techniqueID": "T1204.002",
+            "tactic": "execution",
+            "color": "#e60d0d",
+            "enabled": true
+        },
+        {
+            "techniqueID": "T1490",
+            "tactic": "impact",
+            "color": "#e60d0d",
+            "enabled": true
+        },
+        {
+            "techniqueID": "T1567",
+            "tactic": "exfiltration",
+            "color": "#e60d0d",
+            "enabled": true
+        },
+        {
+            "techniqueID": "T1567.002",
+            "tactic": "exfiltration",
+            "color": "#e60d0d",
+            "enabled": true
+        },
+        {
+            "techniqueID": "T1574",
+            "tactic": "defense-evasion",
+            "color": "#e60d0d",
+            "enabled": true
+        },
+        {
+            "techniqueID": "T1574.002",
+            "tactic": "defense-evasion",
+            "color": "#e60d0d",
+            "enabled": true
+        }
+    ]
+}
